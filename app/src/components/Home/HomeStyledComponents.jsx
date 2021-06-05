@@ -129,7 +129,7 @@ export const HeaderNavList = styled.li`
   }
 `;
 
-export const HeaderSignOut = styled.div`
+export const SignOut = styled.div`
   position: absolute;
   top: 45px;
   background: white;
@@ -142,7 +142,7 @@ export const HeaderSignOut = styled.div`
   display: none;
 `;
 
-export const HeaderUser = styled(NavList)`
+export const User = styled(HeaderNavList)`
   a > svg {
     width: 24px;
     border-radius: 50%;

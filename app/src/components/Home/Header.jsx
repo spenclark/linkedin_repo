@@ -24,7 +24,7 @@ const Header = props => {
                    <HeaderNavListWrap>
                        <HeaderNavList>
                            <a href="">
-                               <img src="/assets/nav-home.svg"> </img>
+                               <img src="/assets/nav-home.svg"></img>
                            </a>
                        </HeaderNavList>
                    </HeaderNavListWrap>
