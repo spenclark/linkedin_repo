@@ -134,4 +134,7 @@ export const Google = styled.button`
     background-color: rgba(207, 207, 207, 0.25);
     color: rgba(0, 0, 0, 0.75);
   }
+  & > p{
+      padding-left: 8px;
+  }
 `;

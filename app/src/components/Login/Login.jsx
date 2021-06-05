@@ -24,7 +24,8 @@ const Login = props => {
                 </Hero>
                 <Form>
                     <Google>
-                        <img src="/assets/google.svg"></img>
+                        <img src="/assets/google.svg"></img> 
+                        <p>Sign in with Google</p>
                     </Google>
                 </Form>
             </Section>
