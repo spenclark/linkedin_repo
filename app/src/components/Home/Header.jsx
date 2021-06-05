@@ -23,10 +23,36 @@ const Header = props => {
                <HeaderNav>
                    <HeaderNavListWrap>
                        <HeaderNavList>
-                           <a href="">
+                           <a href="/home">
                                <img src="/assets/nav-home.svg"></img>
                            </a>
+                           <span>Home</span>
                        </HeaderNavList>
+                       <HeaderNavList>
+                           <a href="/jobs">
+                               <img src="/assets/nav-jobs.svg"></img>
+                           </a>
+                           <span>Jobs</span>
+                       </HeaderNavList>
+                       <HeaderNavList>
+                           <a href="/network">
+                               <img src="/assets/nav-network.svg"></img>
+                           </a>
+                           <span>My Network</span>
+                       </HeaderNavList>
+                       <HeaderNavList>
+                           <a href="/messaging">
+                               <img src="/assets/nav-messaging.svg"></img>
+                           </a>
+                           <span>Messaging</span>
+                       </HeaderNavList>
+                       <HeaderNavList>
+                           <a href="/notifications">
+                               <img src="/assets/nav-notifications.svg"></img>
+                           </a>
+                           <span>Notifications</span>
+                       </HeaderNavList>
+                       
                    </HeaderNavListWrap>
                </HeaderNav>
             </HeaderContent>
